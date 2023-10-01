@@ -24,16 +24,28 @@ const config: Config = {
         header: "64px auto", //for the navbar layout
       },
       colors: {
-        'text-primary-200': '#6c757d',
-        'text-primary-500': '#000',
-        'text-secondary-200': '#0b5ed7',
-        'text-secondary-500': '##0d6efd',
+        'primary-100': '#deefe6',
+        'primary-200': '#6c757d',
+        'primary-500': '#000',
+        'secondary-200': '#0b5ed7',
+        'secondary-500': '#0d6efd',
       },
 
       backgroundColor: {
-        'bg-primary-200': '#edf2f6',
-        'bg-primary-500': '#ffffff',
-        'bg-secondary': '#4d94e7'
+        'white-200': '#edf2f6',
+        'white-500': '#ffffff',
+        'primary-500': '#0d6efd'
+      },
+      borderRadius: {
+        'border-base': '15px'
+      },
+      borderColor: {
+        'base': '#0d6efd',
+        'gray': '#dee2e6'
+      },
+      boxShadow: {
+        'shadow-base': '0px 8px 15px rgba(0, 0, 0, 0.1)',
+        'shadow-sm': '0 .125rem .25rem rgba(0, 0, 0, .075)'
       }
     },
   },

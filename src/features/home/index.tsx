@@ -5,7 +5,7 @@ import SidebarMenu from "./sidebar"
 
 const Home = () => {
   return (
-    <div className=" grid grid-cols-4 gap-6 m-auto overflow-hidden bg-bg-primary-200">
+    <div className=" grid grid-cols-4 gap-6 m-auto overflow-hidden bg-white-200 text-primary-200">
       <div className="md:col-span-1">
         <SidebarMenu />
       </div>
